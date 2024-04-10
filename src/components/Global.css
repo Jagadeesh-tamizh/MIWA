@@ -1,0 +1,76 @@
+.tesseract-container {
+  background: url("bg-home.jpg");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.file-input-container {
+  position: relative;
+  width: 200px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+/* Style for the actual input */
+.file-input {
+  position: absolute;
+  font-size: 100px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+
+/* Style for the custom button */
+.file-input-label {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+/* Hover effect for the custom button */
+.file-input-label:hover {
+  background-color: #2980b9;
+}
+
+/* Global.css or component-specific.css */
+
+.loading-text {
+  color: #3498db !important;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Global.css or component-specific.css */
+
+.converted-text-container {
+  margin-top: 20px;
+}
+
+.converted-text-container h2 {
+  color: #ddd;
+}
+
+.converted-text {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.converted-text p {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #ddd;
+}
